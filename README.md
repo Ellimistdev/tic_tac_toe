@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For now, running
+
+    $ ruby ../tic_tac_toe/lib/example_game.rb
+    
+will launch a playable sample.
 
 ## Development
 

@@ -20,6 +20,12 @@ module TicTacToe
       false
     end
   
+    def formatted_grid
+      grid.each do |row|
+        puts row.map { |cell| cell.value.empty? ? "_" : cell.value }.join(" ")
+      end
+    end
+    
     def draw?
       grid.flatten.map { |cell| cell.value }.none_empty?
     end
@@ -33,7 +39,7 @@ module TicTacToe
     end
     
     def winning_position_values(winning_position)
-      winning_position.map { |cell| cell.values }
+      winning_position.map { |cell| cell.value }
     end
     
     private
