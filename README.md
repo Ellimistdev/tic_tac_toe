@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Nick Rodriguez/tic_tac_toe.
+Bug reports and pull requests are welcome on GitHub at https://github.com/endotnick/tic_tac_toe.
 
 
 ## License
